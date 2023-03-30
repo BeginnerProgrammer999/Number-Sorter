@@ -75,6 +75,7 @@ int selection() { // DEFINED FUNCTION FOR SELECTION SORT
         printf("\nINVALID ORDER CHOSEN!\nPLEASE ENTER THE CORRECT CHOICE!\n"); // IN CASE OF INVALID CHOICE ENTERED
     }
     } while (order2 != 'A' || order2 != 'D');
+    return 0;
 }
 int bubbleascending() { // DEFINED FUNCTION FOR ARRANGING NUMBERS IN ASCENDING ORDER USING BUBBLE SORT TECHNIQUE
     int a[100], temp, i, j, n;
