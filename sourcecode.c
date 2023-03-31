@@ -11,6 +11,8 @@ int choice(); // DECLARED FUNCTION TO CHOOSE WHETHER TO CONTINUE OR EXIT
 int bubble() { // DEFINED FUNCTION FOR BUBBLE SORT
     char order;
     printf("\nYOU HAVE CHOSEN BUBBLE SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     do {
     printf("\nENTER YOUR DESIRED SORTING ORDER: \n"); // TO ENTER YOUR DESIRED ORDER OF SORTING
     printf("\nENTER 'A' FOR ASCENDING ORDER.\n");
@@ -27,6 +29,8 @@ int bubble() { // DEFINED FUNCTION FOR BUBBLE SORT
     }
     else {
         printf("\nINVALID ORDER CHOSEN!\nPLEASE ENTER THE CORRECT CHOICE!\n"); // IN CASE OF INVALID CHOICE ENTERED
+        printf("\nPRESS ENTER TO CONTINUE!\n");
+        getch();
     }
     } while (order != 'A' || order != 'D');
     return 0;
@@ -34,6 +38,8 @@ int bubble() { // DEFINED FUNCTION FOR BUBBLE SORT
 int insertion() { // DEFINED FUNCTION FOR INSERTION SORT 
     char order1;
     printf("\nYOU HAVE CHOSEN INSERTION SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     do {
     printf("\nENTER YOUR DESIRED SORTING ORDER: \n"); // TO ENTER YOUR DESIRED ORDER OF SORTING
     printf("\nENTER 'A' FOR ASCENDING ORDER.\n");
@@ -50,6 +56,8 @@ int insertion() { // DEFINED FUNCTION FOR INSERTION SORT
     }
     else {
         printf("\nINVALID ORDER CHOSEN!\nPLEASE ENTER THE CORRECT CHOICE!\n"); // IN CASE OF INVALID CHOICE ENTERED
+        printf("\nPRESS ENTER TO CONTINUE!\n");
+        getch();
     }
     } while (order1 != 'A' || order1 != 'D');
     return 0;
@@ -57,6 +65,8 @@ int insertion() { // DEFINED FUNCTION FOR INSERTION SORT
 int selection() { // DEFINED FUNCTION FOR SELECTION SORT
     char order2;
     printf("\nYOU HAVE CHOSEN SELECTION SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     do {
     printf("\nENTER YOUR DESIRED SORTING ORDER: \n"); // TO ENTER YOUR DESIRED ORDER OF SORTING
     printf("\nENTER 'A' FOR ASCENDING ORDER.\n");
@@ -73,6 +83,8 @@ int selection() { // DEFINED FUNCTION FOR SELECTION SORT
     }
     else {
         printf("\nINVALID ORDER CHOSEN!\nPLEASE ENTER THE CORRECT CHOICE!\n"); // IN CASE OF INVALID CHOICE ENTERED
+        printf("\nPRESS ENTER TO CONTINUE!\n");
+        getch();
     }
     } while (order2 != 'A' || order2 != 'D');
     return 0;
@@ -360,6 +372,8 @@ int main() {
 }
 int sorts() { // DEFINED FUNCTION FOR SELECTING OUR DESIRED SORTING TECHNIQUE
     char method;
+    printf("PRESS ENTER TO CONTINUE!\n");
+    getch();
     do {
     printf("\nENTER YOUR DESIRED SORTING METHOD:\n"); // TO ENTER YOUR DESIRED SORTING TECHNIQUE
     printf("\nENTER 'B' FOR BUBBLE SORT.\n");
@@ -381,6 +395,8 @@ int sorts() { // DEFINED FUNCTION FOR SELECTING OUR DESIRED SORTING TECHNIQUE
     }
     else {
         printf("\nINVALID OPTION CHOSEN!\nPLEASE ENTER THE CORRECT CHOICE!\n"); // IN CASE OF INVALID OPTION ENTERED
+        printf("\nPRESS ENTER TO CONTINUE!\n");
+        getch();
     }
     } while (method != 'B' || method != 'I' || method != 'S');
     return 0;
