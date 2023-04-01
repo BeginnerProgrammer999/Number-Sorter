@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 // DECLARATION OF FUNCTIONS FOR THE ARRANGEMENT OF NUMBERS USING BUBBLE, SELECTION AND INSEERTION SORTS IN ASCENDING AND DESCENDING ORDER
 int bubbleascending(); 
 int bubbledescending();           
