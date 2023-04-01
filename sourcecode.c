@@ -94,6 +94,8 @@ int bubbleascending() { // DEFINED FUNCTION FOR ARRANGING NUMBERS IN ASCENDING O
     int a[100], temp, i, j, n;
     char option;
     printf("\nYOU HAVE CHOSEN TO SORT THE ELEMENTS IN ASCENDING ORDER USING BUBBLE SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     printf("\nENTER NUMBER OF ELEMENTS TO BE SORTED = ");
     scanf("%d", &n);
     printf("\nENTER THE ELEMENTS TO BE SORTED: \n\n");
@@ -140,6 +142,8 @@ int bubbledescending() { // DEFINED FUNCTION USED FOR ARRANGEMENT OF NUMBERS IN 
     int a[100], temp, i, j, n;
     char option1;
     printf("\nYOU HAVE CHOSEN TO SORT THE ELEMENTS IN DESCENDING ORDER USING BUBBLE SORT!\n\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     printf("ENTER NUMBER OF ELEMENTS TO BE SORTED = ");
     scanf("%d", &n);
     printf("\nENTER THE ELEMENTS TO BE SORTED: \n\n");
@@ -186,6 +190,8 @@ int insertionascending() { // DEFINED FUNCTION FOR ARRANGING NUMBERS IN ASCENDIN
     int a[100], temp, i, j, n;
     char option2;
     printf("\nYOU HAVE CHOSEN TO SORT THE ELEMENTS IN ASCENDING ORDER USING INSERTION SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     printf("\nENTER NUMBER OF ELEMENTS TO BE SORTED = ");
     scanf("%d", &n);
     printf("\nENTER THE ELEMENTS TO BE SORTED: \n\n");
@@ -232,6 +238,8 @@ int insertiondescending() { // DEFINED FUNCTION FOR ARRANGING NUMBERS IN DESCEND
     int a[100], temp, i, j, n;
     char option3;
     printf("\nYOU HAVE CHOSEN TO SORT THE ELEMENTS IN DESCENDING ORDER USING INSERTION SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     printf("\nENTER NUMBER OF ELEMENTS TO BE SORTED = ");
     scanf("%d", &n);
     printf("\nENTER THE ELEMENTS TO BE SORTED: \n\n");
@@ -278,6 +286,8 @@ int selectionascending() { // DEFINED FUNCTION FOR THE ARRANGEMENT OF ELEMENTS I
     int a[100], temp, i, j, n, choice4;
     char option4;
     printf("\nYOU HAVE CHOSEN TO SORT THE ELEMENTS IN ASCENDING ORDER USING SELECTION SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     printf("\nENTER NUMBER OF ELEMENTS TO BE SORTED = ");
     scanf("%d", &n);
     printf("\nENTER THE ELEMENTS TO BE SORTED: \n\n");
@@ -324,6 +334,8 @@ int selectiondescending() { // DEFINED FUNCTION USED FOR ARRANGING ELEMENTS IN D
     int a[100], temp, i, j, n, choice5;
     char option5;
     printf("\nYOU HAVE CHOSEN TO SORT THE ELEMENTS IN DESCENDING ORDER USING SELECTION SORT!\n");
+    printf("\nPRESS ENTER TO CONTINUE!\n");
+    getch();
     printf("\nENTER NUMBER OF ELEMENTS TO BE SORTED = ");
     scanf("%d", &n);
     printf("\nENTER THE ELEMENTS TO BE SORTED: \n\n");
